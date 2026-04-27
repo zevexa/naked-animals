@@ -1,150 +1,176 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
-.group-1{
-background-color: #1f2937;
-display: flex;
-flex-direction: column;
+img {
+    margin-bottom: 20px
 }
 
-.container{
+button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 5px 20px;
+    border: none;
+    height: 40px
+}
+
+.blue-container {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.shared-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 40px;
     display: flex;
-    flex-direction:column
+    flex-direction: column
 }
-.header{
+
+.header-main {
     color: #e5e7eb;
     display: flex;
-    align-items: center;  
+    align-items: center;
     justify-content: space-between;
     margin-top: 30px
 }
 
-.logo{
+.logo {
     color: #f9faf8;
     font-size: 24px;
 }
 
-.hero-main{
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0
+}
+
+.list-item {
+    padding-right: 30px
+}
+
+.hero-panel {
+    display: flex;
+    align-items: center;
+    gap: 50px
+}
+
+.hero-header {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
 }
 
-.secondary{
+.hero-image {
+    height: 400px;
+    margin: 100px 0
+}
+
+.shared-secondary-font {
     font-size: 18px;
     color: #e5e7eb;
     font-weight: 300
 }
-.button{
-    background-color: #3882f6;
-    border-radius: 8px;
-    padding: 5px 20px;
-    border: none;
-    height: 30px
-    
-}
-.button.top{
-    margin-top: 20px
-}
-.button-bottom{
-    outline: 3px solid #e5e7eb;
-    align-self: center;
-}
-.panel-1{
-    display: flex;
-    align-items: center;
-    gap:50px
+
+.button-top {
+    margin-top: 20px;
 }
 
-.information-header{
+
+.featured-creatures {
+    display: flex;
+    flex-direction: column;
+}
+
+.featured-header {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
     text-align: center;
     margin: 40px 0
 }
-.group-2{
-    display: flex;
-    flex-direction: column;
-}
-.group-2-images{
+
+.featured-images {
     display: flex;
     flex-direction: row;
     gap: 20px
 }
-.group-3{
+
+.featured-images img {
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    height: 350px
+}
+
+.subtitle.text {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.quote-container {
     background-color: #e5e7eb;
+    margin-top: 100px
 }
-.group-3 h3{
+
+.quote-full {
+    padding: 100px 80px;
+}
+
+.quote-text {
     font-size: 36px;
-    color: #1f2937;
-    font-weight: 300;
+    font-weight: 200;
+    font-style: italic;
+    justify-self: start;
 }
 
-.call-to-action{
-    display: flex;
-    padding: 0px 80px;
-    justify-content: space-between;
+.quote-author {
+    padding-top: 10px;
+    padding-right: 80px;
+    text-align: end;
+    font-weight: 700;
+    font-size: 20px;
 }
 
-.group-4{
+.call-to-action-container {
     background-color: #3882f6;
     max-width: 1000px;
-    color:#e5e7eb;
+    color: #e5e7eb;
     margin-top: 100px;
     margin-bottom: 80px;
     margin-left: auto;
     margin-right: auto;
     padding: 50px 40px;
     border-radius: 8px;
-   
-}
-ul{
-    list-style-type: none;
-    display: flex;
-    gap: 20px;
-    margin: 0
+
 }
 
-img{
-    height: 350px;
-    margin-bottom: 20px
+.call-to-action-content {
+    display: flex;
+    padding: 0px 80px;
+    justify-content: space-between;
 }
-.sphinx{
-    height: 300px;
-    margin: 100px 0
-}
-.creatures img{
-    border:4px solid #3882f6;
-    border-radius: 10px;
-}
-.text{
-    margin-bottom: 100px;
-    text-align: center;
-}
-.quote-text{
-    font-size: 36px;
-    font-weight: 200;
-    font-style: italic;
-    justify-self:start
-}
-.quoter{
-    text-align: end;
-    font-weight: 700;
+
+.call-to-action {
     font-size: 20px;
+    font-weight: 500
 }
-.quote{
-    padding: 80px 80px;
-}
-.sign-up-text{
+
+.sign-up-text {
     display: flex;
     flex-direction: column;
 }
-.cta{
-    font-size: 20px;
-    font-weight: 500
+
+.button-bottom {
+    outline: 3px solid #e5e7eb;
+    align-self: center;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 40px 0;
+    font-weight: 300;
+    text-align: center
 }
