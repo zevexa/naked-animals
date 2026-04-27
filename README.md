@@ -1,4 +1,4 @@
-# A Webpage
+# Naked Animal Home Page
 Mock up of home page of made up website, created to practice html/css basics. 
 
 Image credit:
