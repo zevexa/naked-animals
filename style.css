@@ -37,19 +37,22 @@ flex-direction: column;
 .secondary{
     font-size: 18px;
     color: #e5e7eb;
+    font-weight: 300
 }
 .button{
     background-color: #3882f6;
     border-radius: 8px;
     padding: 5px 20px;
-    border: none
+    border: none;
+    height: 30px
     
 }
 .button.top{
     margin-top: 20px
 }
 .button-bottom{
-    outline: 2px solid #e5e7eb;
+    outline: 3px solid #e5e7eb;
+    align-self: center;
 }
 .panel-1{
     display: flex;
@@ -82,9 +85,23 @@ flex-direction: column;
     font-weight: 300;
 }
 
+.call-to-action{
+    display: flex;
+    padding: 0px 80px;
+    justify-content: space-between;
+}
+
 .group-4{
     background-color: #3882f6;
-    color:#e5e7eb
+    max-width: 1000px;
+    color:#e5e7eb;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 40px;
+    border-radius: 8px;
+   
 }
 ul{
     list-style-type: none;
@@ -118,8 +135,16 @@ img{
 .quoter{
     text-align: end;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
 }
 .quote{
     padding: 80px 80px;
+}
+.sign-up-text{
+    display: flex;
+    flex-direction: column;
+}
+.cta{
+    font-size: 20px;
+    font-weight: 500
 }
